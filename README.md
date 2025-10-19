@@ -1,56 +1,56 @@
-# Rainfall Prediction Web Application
+# Rainfall Prediction App
 
-A machine learning web application that predicts rainfall probability based on weather parameters using Random Forest algorithm.
+This is a website that predicts if it will rain based on weather information.
 
-## 🌟 Features
-- 🌦️ Real-time rainfall prediction
-- 🎯 7 weather parameter inputs
-- 📱 Fully responsive web interface
-- 📊 Confidence score display
-- 🚀 Fast and accurate predictions
+## What It Does
+- Tells you if it will rain or not
+- Uses 7 different weather measurements
+- Works on phones and computers
+- Shows how confident the prediction is
+- Gives fast results
 
-## 🛠️ Technologies Used
-- **Backend:** Python, Flask, Scikit-learn, Pandas, NumPy
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Machine Learning:** Random Forest Classifier
-- **Version Control:** Git, GitHub
+## How It Works
+- Backend: Python with Flask
+- Frontend: Regular website (HTML/CSS/JavaScript)
+- Uses smart computer learning (Random Forest)
+- Stores code on GitHub
 
-## 📋 Input Parameters
-1. **Pressure** (hPa) - Atmospheric pressure
-2. **Dew Point** (°C) - Temperature at which condensation occurs
-3. **Humidity** (%) - Relative humidity
-4. **Cloud Cover** (%) - Percentage of cloud coverage
-5. **Sunshine** (hours) - Duration of sunshine
-6. **Wind Direction** (degrees) - Wind direction in degrees
-7. **Wind Speed** (km/h) - Wind speed
+## Weather Information Needed:
+1. Air Pressure
+2. Dew Point (temperature when water forms)
+3. Humidity (how much moisture in air)
+4. Cloud Cover (how cloudy it is)
+5. Sunshine (hours of sun)
+6. Wind Direction
+7. Wind Speed
 
-## 🚀 Installation & Setup
+## How to Set It Up
 
-### Prerequisites
-- Python 3.7+
-- Git
+### What You Need First:
+- Python installed
+- Git installed
 
-### Step-by-Step Installation
+### Step by Step:
 ```bash
-# 1. Clone the repository
+# 1. Download the project
 git clone https://github.com/YOUR_USERNAME/rainfall-prediction-app.git
 
-# 2. Navigate to project directory
+# 2. Go to the project folder
 cd rainfall-prediction-app
 
-# 3. Install required packages
+# 3. Install required software
 pip install flask pandas scikit-learn numpy
 
-# 4. Run the application
+# 4. Start the website
 python app.py
 
-# 5. Open your browser and visit
+# 5. Open your web browser and go to:
 # http://127.0.0.1:5000
 
 
 rainfall-prediction-app/
-├── app.py                         # Main Flask application
-├── rainfall_prediction_model.pkl  # Trained ML model
+├── app.py                         (main program)
+├── rainfall_prediction_model.pkl  (smart brain)
 ├── templates/
-│   └── index.html                 # Web interface
-└── README.md                      # Project documentation
+│   └── index.html                 (website design)
+└── README.md                      (this file)
